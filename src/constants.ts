@@ -27,7 +27,7 @@ interface Experience {
 
 export const personalInfo = {
   name: "Lucas Marujo",
-  role: "FrontEnd Full Stack Developer with AI",
+  role: "FullStack & Automation Developer",
   about: "I have a keen interest in technology and am looking for an internship opportunity in software development, with the firm intention of applying and expanding my programming skills. I am open to opportunities in related areas, and other’s too, I am a motivated and versatile person, always willing to accept new challenges. With a passion for learning, I am dedicated to delivering high quality results. With a positive attitude and a growth mindset, willing to contribute significantly and achieve great things.",
   photo: "https://avatars.githubusercontent.com/u/97917029?v=4",
   github: "https://github.com/lucasmarujo",
@@ -38,9 +38,9 @@ export const personalInfo = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Portfolio website 1.0 & 2.0",
+    title: "Portfolio",
     description: "Fully responsive portfolio website, with a modern and clean design, built with React and TypeScript, and styled with Tailwind CSS.",
-    technologies: ["React", "Node.js", "Javascript", "TypeScript"],
+    technologies: ["React", "Node.js","TypeScript", "Tailwind CSS"],
     image: portfolio
   },
   {
@@ -127,15 +127,15 @@ export const experience: Experience[] = [
     id: 4,
     company: "Airblower Engenharia",
     position: "Web Developer freelance",
-    date: "mid 2020",
+    date: "Feb 2020 - Dec 2021",
     location: "Jarinu, Brazil",
     description: "Web programming, social media administration and network, hardware and software maintenance."
   },
   {
     id: 5,
     company: "Intellibrand",
-    position: "Full Stack Developer",
-    date: "end 2019 - early 2020",
+    position: "System Analyst",
+    date: "Jun 2019 - Jan 2020",
     location: "São Paulo, Brazil",
     description: "Internal digital platform monitoring."
   }

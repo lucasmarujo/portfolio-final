@@ -32,19 +32,17 @@ const Home: React.FC = () => {
       <div className="flex flex-wrap justify-center gap-6 mb-6 max-w-2xl px-4">
         <TechIcon color="blue" icon="react-original" title="React.js" />
         <TechIcon color="blue" icon="typescript-original" title="TypeScript" />
-        <TechIcon color="yellow" icon="javascript-plain" title="JavaScript" />
-        <TechIcon color="orange" icon="html5-plain" title="HTML5" />
-        <TechIcon color="green" icon="css3-plain" title="CSS3" />
-        <TechIcon color="green" icon="mysql-plain" title="MySQL" />
         <TechIcon color="green" icon="nodejs-plain" title="Node.js" />
         <TechIcon color="blue" icon="tailwindcss-plain" title="Tailwind CSS" />
+        <TechIcon color="blue" icon="materialui-plain" title="Material UI" />
+        <TechIcon color="green" icon="mysql-plain" title="MySQL" />
         <TechIcon color="blue" icon="python-plain" title="Python" />
         <TechIcon color="blue" icon="github-plain" title="GitHub" />
       </div>
 
       {/* Download Buttons */}
       <div className="flex space-x-4 mb-8">
-        <a target="_blank" href="https://drive.google.com/file/d/1jem5nSfZ_WpzHWVBvma98q4f1oZj6yAO/view?usp=drive_link" className="flex items-center px-4 py-2 rounded-lg border-2 border-green-500 hover:border-yellow-500 dark:border-green-400 dark:hover:border-yellow-400 transition-colors duration-300 group">
+        <a target="_blank" href="https://drive.google.com/file/d/1mnbq9N_ri41BPfnPqCgyOnGsl68mDo3D/view?usp=drive_link" className="flex items-center px-4 py-2 rounded-lg border-2 border-green-500 hover:border-yellow-500 dark:border-green-400 dark:hover:border-yellow-400 transition-colors duration-300 group">
           <img 
             src={braphoto} 
             alt="Brazil flag" 
@@ -56,7 +54,7 @@ const Home: React.FC = () => {
           <Download className="w-4 h-4 ml-2 text-gray-800 dark:text-gray-200 group-hover:text-gray-600 dark:group-hover:text-gray-300" />
         </a>
         
-        <a target="_blank" href="https://drive.google.com/file/d/1cnyf8dwZ6Kmtn4McG0hRF5oITTHz5zzE/view?usp=drive_link" className="flex items-center px-4 py-2 rounded-lg border-2 border-blue-500 hover:border-red-500 dark:border-blue-400 dark:hover:border-red-400 transition-colors duration-300 group">
+        <a target="_blank" href="https://drive.google.com/file/d/1dzBDABB2B3JdFXxEx_ju7fvKwDMheWkS/view?usp=drive_link" className="flex items-center px-4 py-2 rounded-lg border-2 border-blue-500 hover:border-red-500 dark:border-blue-400 dark:hover:border-red-400 transition-colors duration-300 group">
           <img 
             src={usaphoto}
             alt="USA flag" 
