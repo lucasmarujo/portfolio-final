@@ -1,4 +1,6 @@
 import portfolio from './public/portfolio.png';
+import CC from './public/currency-converter.png';
+import pixelimg from './public/pixel-flow.png';
 
 interface Project {
   id: number;
@@ -45,17 +47,17 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates",
-    technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=500"
+    title: "Pixel Flow",
+    description: "Pixel Flow is a web development agency that creates stunning, customized digital solutions. Our repository contains projects, templates, and tools to build modern, responsive, and optimized websites with a focus on design and performance. Join us to transform your ideas into unique online experiences!",
+    technologies: ["React", "Node.js", "Typescript", "Tailwind CSS"],
+    image: pixelimg
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Currency Converter",
     description: "A full-featured e-commerce platform built with React and Node.js",
-    technologies: ["React", "Node.js", "MongoDB", "TypeScript"],
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=500"
+    technologies: ["Angular", "Node.js", "ExchangeRateAPI", "TypeScript"],
+    image:  CC
   },
 ];
 
