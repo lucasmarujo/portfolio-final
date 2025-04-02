@@ -42,7 +42,7 @@ const Home: React.FC = () => {
 
       {/* Download Buttons */}
       <div className="flex space-x-4 mb-8">
-        <a target="_blank" href="https://drive.google.com/file/d/1mnbq9N_ri41BPfnPqCgyOnGsl68mDo3D/view?usp=drive_link" className="flex items-center px-4 py-2 rounded-lg border-2 border-green-500 hover:border-yellow-500 dark:border-green-400 dark:hover:border-yellow-400 transition-colors duration-300 group">
+        <a target="_blank" href="https://drive.google.com/file/d/1UGBqyPXDr9BAi4idVIRgIVmhwQDIC2Ot/view?usp=drive_link" className="flex items-center px-4 py-2 rounded-lg border-2 border-green-500 hover:border-yellow-500 dark:border-green-400 dark:hover:border-yellow-400 transition-colors duration-300 group">
           <img 
             src={braphoto} 
             alt="Brazil flag" 
@@ -54,7 +54,7 @@ const Home: React.FC = () => {
           <Download className="w-4 h-4 ml-2 text-gray-800 dark:text-gray-200 group-hover:text-gray-600 dark:group-hover:text-gray-300" />
         </a>
         
-        <a target="_blank" href="https://drive.google.com/file/d/1dzBDABB2B3JdFXxEx_ju7fvKwDMheWkS/view?usp=drive_link" className="flex items-center px-4 py-2 rounded-lg border-2 border-blue-500 hover:border-red-500 dark:border-blue-400 dark:hover:border-red-400 transition-colors duration-300 group">
+        <a target="_blank" href="https://drive.google.com/file/d/190jWMSeZZdE0M3BNjClRshNXdsl3_ZwK/view?usp=drive_link" className="flex items-center px-4 py-2 rounded-lg border-2 border-blue-500 hover:border-red-500 dark:border-blue-400 dark:hover:border-red-400 transition-colors duration-300 group">
           <img 
             src={usaphoto}
             alt="USA flag" 

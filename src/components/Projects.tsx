@@ -5,9 +5,12 @@ const Projects: React.FC = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-8">
       {projects.map((project) => (
-        <div 
+        <a 
           key={project.id} 
-          className="group bg-white rounded-lg overflow-hidden dark:bg-zinc-900 border border-gray-200 dark:border-gray-700 hover:border-blue-500 dark:hover:border-blue-400 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10 transform hover:-translate-y-1"
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group bg-white rounded-lg overflow-hidden dark:bg-zinc-900 border border-gray-200 dark:border-gray-700 hover:border-blue-500 dark:hover:border-blue-400 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10 transform hover:-translate-y-1 cursor-pointer"
         >
           <img
             src={project.image}
@@ -28,7 +31,7 @@ const Projects: React.FC = () => {
               ))}
             </div>
           </div>
-        </div>
+        </a>
       ))}
     </div>
   );

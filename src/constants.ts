@@ -1,4 +1,4 @@
-import portfolio from './public/portfolio.png';
+// import portfolio from './public/portfolio.png';
 import CC from './public/currency-converter.png';
 import pixelimg from './public/pixel-flow.png';
 
@@ -8,6 +8,7 @@ interface Project {
   description: string;
   technologies: string[];
   image: string;
+  link: string;
 }
 
 interface Education {
@@ -30,7 +31,7 @@ interface Experience {
 export const personalInfo = {
   name: "Lucas Marujo",
   role: "FullStack & Automation Developer",
-  about: "I have a keen interest in technology and am looking for an internship opportunity in software development, with the firm intention of applying and expanding my programming skills. I am open to opportunities in related areas, and other’s too, I am a motivated and versatile person, always willing to accept new challenges. With a passion for learning, I am dedicated to delivering high quality results. With a positive attitude and a growth mindset, willing to contribute significantly and achieve great things.",
+  about: "I have a keen interest in technology and am looking for an internship opportunity in software development, with the firm intention of applying and expanding my programming skills. I am open to opportunities in related areas, and other's too, I am a motivated and versatile person, always willing to accept new challenges. With a passion for learning, I am dedicated to delivering high quality results. With a positive attitude and a growth mindset, willing to contribute significantly and achieve great things.",
   photo: "https://avatars.githubusercontent.com/u/97917029?v=4",
   github: "https://github.com/lucasmarujo",
   linkedin: "https://www.linkedin.com/in/lucas-marujo-amadeu-5322a7219/",
@@ -40,24 +41,27 @@ export const personalInfo = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Portfolio",
-    description: "Fully responsive portfolio website, with a modern and clean design, built with React and TypeScript, and styled with Tailwind CSS.",
+    title: "LP-VSL-Template",
+    description: "A high-converting VSL landing page template with React + TypeScript + TailwindCSS (open source)[Fully responsive].",
     technologies: ["React", "Node.js","TypeScript", "Tailwind CSS"],
-    image: portfolio
+    image: "https://ideogram.ai/assets/image/lossless/response/qkuumgGeS9m2lPFnVc-Mag",
+    link: "https://github.com/lucasmarujo/lp-vsl-template"
   },
   {
     id: 2,
     title: "Pixel Flow",
     description: "Pixel Flow is a web development agency that creates stunning, customized digital solutions. Our repository contains projects, templates, and tools to build modern, responsive, and optimized websites with a focus on design and performance. Join us to transform your ideas into unique online experiences!",
     technologies: ["React", "Node.js", "Typescript", "Tailwind CSS"],
-    image: pixelimg
+    image: pixelimg,
+    link: "https://github.com/lucasmarujo/pixel-flow"
   },
   {
     id: 3,
     title: "Currency Converter",
     description: "A full-featured e-commerce platform built with React and Node.js",
     technologies: ["Angular", "Node.js", "ExchangeRateAPI", "TypeScript"],
-    image:  CC
+    image:  CC,
+    link: "https://github.com/lucasmarujo/CurrencyConverter"
   },
 ];
 
@@ -103,14 +107,6 @@ export const experience: Experience[] = [
   },
   {
     id: 1,
-    company: "Lago Azul Distribuição",
-    position: "Administrative assistant",
-    date: "Mar 2023 - Aug 2023",
-    location: "Jundiaí, Brazil",
-    description: "Working in logistics and finance, using ERP Control, BI and spreadsheets to optimize processes, with agile communication and presentation of results at strategic meetings."
-  },
-  {
-    id: 2,
     company: "Rede Boa Supermercados",
     position: "IT Support Trainee",
     date: "Oct 2022 - Jan 2023",
@@ -118,15 +114,7 @@ export const experience: Experience[] = [
     description: "Maintenance of networks, hardware and POS systems, technical support for ERP Protheus and Linux, as well as identifying and resolving system faults."
   },
   {
-    id: 3,
-    company: "Pro Turbo Usinagem",
-    position: "HR apprentice and office assistant",
-    date: "Jun 2022 - Oct 2022",
-    location: "Jundiaí, Brazil",
-    description: "Working in HR with employee registration, scanning engineering documents and managing maintenance spreadsheets."
-  },
-  {
-    id: 4,
+    id: 2,
     company: "Airblower Engenharia",
     position: "Web Developer freelance",
     date: "Feb 2020 - Dec 2021",
@@ -134,9 +122,9 @@ export const experience: Experience[] = [
     description: "Web programming, social media administration and network, hardware and software maintenance."
   },
   {
-    id: 5,
-    company: "Intellibrand",
-    position: "System Analyst",
+    id: 3,
+    company: "FlyWheel (intellibrand)",
+    position: "IT intern",
     date: "Jun 2019 - Jan 2020",
     location: "São Paulo, Brazil",
     description: "Internal digital platform monitoring."
